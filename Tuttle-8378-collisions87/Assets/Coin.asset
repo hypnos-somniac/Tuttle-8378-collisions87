@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Coin
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":97.10361,"y":32.56551},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-191.0,"y":-30.0},"guid":"6d69419f-14e2-415f-af8e-815283843611","$version":"A","$type":"Unity.VisualScripting.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"9206f965-54a8-4918-ad20-9861f394fd2e","$version":"A","$type":"Unity.VisualScripting.Update"},{"coroutine":false,"defaultValues":{},"position":{"x":-292.0,"y":-153.0},"guid":"4f5d876f-2b31-413b-b552-76bff1ff4e29","$version":"A","$type":"Unity.VisualScripting.FixedUpdate","$id":"13"},{"chainable":false,"parameterNames":["newX","newY","newZ"],"member":{"name":"Set","parameterTypes":["System.Single","System.Single","System.Single"],"targetType":"UnityEngine.Vector3","targetTypeName":"UnityEngine.Vector3","$version":"A"},"defaultValues":{"target":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"%newX":{"$content":0.0,"$type":"System.Single"},"%newY":{"$content":0.0,"$type":"System.Single"},"%newZ":{"$content":0.0,"$type":"System.Single"}},"position":{"x":218.0,"y":-189.0},"guid":"4d8f1a6a-13da-46cb-a011-6dede0fa383d","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"15"},{"defaultValues":{},"position":{"x":129.0,"y":96.0},"guid":"b99d7cd9-8e8b-404a-a8cc-7f32d609a55e","$version":"A","$type":"Unity.VisualScripting.GenericDivide","$id":"19"},{"type":"System.Single","value":{"$content":2.0,"$type":"System.Single"},"defaultValues":{},"position":{"x":-35.0,"y":113.0},"guid":"89531cc8-9211-4dcb-a3cb-47499ee6af96","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"21"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"PlayerPosition","$type":"System.String"}},"position":{"x":-61.0,"y":-4.0},"guid":"12c61632-60f9-4214-80ee-03782fa19ae2","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"23"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"15"},"destinationKey":"enter","guid":"22498562-060b-4266-844e-69733427de5e","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"output","destinationUnit":{"$ref":"19"},"destinationKey":"divisor","guid":"c196ea87-3bdc-411a-979a-48ed42167a2c","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"quotient","destinationUnit":{"$ref":"15"},"destinationKey":"target","guid":"fe1562e5-6c26-4b3b-b159-047cd6208aae","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"23"},"sourceKey":"value","destinationUnit":{"$ref":"19"},"destinationKey":"dividend","guid":"c482419c-6c35-49d7-9944-cb6c1bd9b546","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
