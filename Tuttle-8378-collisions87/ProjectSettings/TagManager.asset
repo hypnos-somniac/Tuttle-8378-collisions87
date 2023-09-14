@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Coin
+  - LeftScore
+  - RightScore
   layers:
   - Default
   - TransparentFX
